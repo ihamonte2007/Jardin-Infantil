@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenida - Jardín de Infantes Nº922</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Merienda:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: 'Merienda', cursive;
+      background: linear-gradient(135deg, #f7f1e1, #f1e0c6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #4b3b36;
+      overflow: hidden;
+    }
+
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      animation: aparecer 1.2s ease;
+    }
+
+    .tarjeta {
+      background-color: #ffffff;
+      padding: 50px 40px;
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      max-width: 550px;
+      animation: subir 1.2s ease;
+    }
+
+    .tarjeta h1 {
+      font-family: 'Playfair Display', serif;
+      color: #e57b74;
+      font-size: 2.4em;
+      margin-bottom: 10px;
+    }
+
+    .tarjeta h2 {
+      color: #7a5a52;
+      font-style: italic;
+      margin-bottom: 25px;
+      font-weight: normal;
+    }
+
+    .mensaje {
+      font-size: 1.1em;
+      margin-bottom: 35px;
+      line-height: 1.7;
+    }
+
+    .btn {
+      background-color: #e57b74;
+      border: none;
+      color: white;
+      font-size: 1.2em;
+      padding: 14px 40px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 12px rgba(229, 123, 116, 0.4);
+    }
+
+    .btn:hover {
+      background-color: #e14b3f;
+      transform: scale(1.05);
+    }
+
+    @keyframes aparecer {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes subir {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+
+    .flor {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background: radial-gradient(circle at 30% 30%, #fbe6ea, #f1e0c6);
+      border-radius: 50%;
+      opacity: 0.3;
+      animation: flotar 6s ease-in-out infinite;
+    }
+
+    .flor:nth-child(1) {
+      top: 10%;
+      left: 15%;
+      animation-delay: 0s;
+    }
+    .flor:nth-child(2) {
+      bottom: 10%;
+      right: 10%;
+      animation-delay: 2s;
+    }
+    .flor:nth-child(3) {
+      top: 60%;
+      left: 70%;
+      animation-delay: 4s;
+    }
+
+    @keyframes flotar {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .tarjeta {
+        width: 90%;
+        padding: 35px 20px;
+      }
+      .tarjeta h1 {
+        font-size: 1.9em;
+      }
+      .mensaje {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flor"></div>
+  <div class="flor"></div>
+  <div class="flor"></div>
+
+  <div class="contenedor">
+    <div class="tarjeta">
+      <h1> Bienvenidos al Jardín Nº922 </h1>
+      <h2>"Tamborcito de Tacuari"</h2>
+      <p class="mensaje">
+        Nos alegra recibirte <br>
+        Aquí podrás conocer la historia, las salas, actividades, y cómo inscribirte.<br>
+        ¡Esperamos que disfrutes tu visita!
+      </p>
+
+      <button class="btn" onclick="entrar()">Entrar al sitio</button>
+    </div>
+  </div>
+
+  <script>
+    function entrar() {
+      window.location.href = "index1.html"; 
+    
+    }
+  </script>
+</body>
+</html>

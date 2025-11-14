@@ -1,0 +1,145 @@
+
+body {
+  margin: 0;
+  font-family: "Quicksand", "Poppins", sans-serif;
+  background-color: #f9f7f4;
+  color: #3e3e3e;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+}
+
+
+.header {
+  text-align: center;
+  background: linear-gradient(to right, #eae6df, #f4f1eb);
+  color: #4a4a4a;
+  padding: 3rem 1rem 2.5rem;
+  border-bottom: 2px solid #ddd3c8;
+}
+
+.titulo {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #5d554b;
+}
+
+.subtitulo {
+  font-size: 1.15rem;
+  color: #6b655c;
+  margin-top: 0.6rem;
+  font-style: italic;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #f1ede7;
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid #ded6cb;
+}
+
+.navbar a {
+  color: #756b60;
+  text-decoration: none;
+  margin: 0 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar a:hover {
+  color: #8a7c70;
+  border-bottom: 2px solid #c9b7a4;
+}
+
+
+.seccion {
+  background-color: #ffffff;
+  max-width: 880px;
+  margin: 3rem auto;
+  padding: 2.2rem 2.6rem;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+  border: 1px solid #e8e2d8;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.9rem;
+  color: #7a6a59;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.05rem;
+  color: #4a4a4a;
+}
+
+
+.video-seccion video {
+  display: block;
+  margin: 1.8rem auto;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.footer {
+  text-align: center;
+  background: #ede8e1;
+  color: #60574c;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid #d9d1c7;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.8rem;
+  color: white;
+  background-color: #9e8f7d;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton:hover {
+  background-color: #8a7a68;
+  transform: scale(1.03);
+}
+
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #e4ddd3;
+  margin: 2rem 0;
+}
+
+
+@media (max-width: 768px) {
+  .seccion {
+    padding: 1.8rem;
+  }
+
+  .titulo {
+    font-size: 2.3rem;
+  }
+
+  .navbar a {
+    margin: 0 0.8rem;
+  }
+}

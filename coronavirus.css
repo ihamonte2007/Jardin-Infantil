@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('images/fondo-textura.jpg') repeat;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+.header {
+    background: linear-gradient(135deg, #eacda3, #d6ae7b);
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+.header .title {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.menu {
+    background: #d6ae7b;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.menu .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 15px 0;
+}
+.menu .nav-links li {
+    margin: 0 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    transition: color 0.3s, transform 0.3s;
+}
+.menu a:hover {
+    color: #fdf6e3;
+    transform: scale(1.1);
+}
+
+
+.contenido {
+    padding: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contenido h2 {
+    font-size: 2.5rem;
+    color: #6b4f4f;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 2px solid #d6ae7b;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.contenido p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.img:hover {
+    transform: scale(1.05);
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d6ae7b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn:hover {
+    background-color: #6b4f4f;
+    transform: scale(1.1);
+}
+
+
+.footer {
+    background: #6b4f4f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.footer a {
+    color: #eacda3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.footer a:hover {
+    color: #fdf6e3;
+}

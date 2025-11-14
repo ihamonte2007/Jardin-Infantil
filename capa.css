@@ -1,0 +1,130 @@
+
+body {
+  background-color: #f8f6f9;
+  font-family: "Poppins", "Quicksand", sans-serif;
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+body > * {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(135deg, #fbe4eb, #e5f3eb);
+  padding: 2.5rem 1rem;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.verde {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.rosa {
+  color: #cc6485;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.blanco {
+  background-color: #ffffff;
+  padding: 1.4rem 1.6rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  font-size: 1.05rem;
+  text-align: justify;
+  border: 1px solid #f0e6eb;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #e5dce2;
+  margin: 2rem 0;
+}
+
+
+.foto,
+.foto1,
+.foto2 {
+  width: 48%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 14px;
+  margin: 1%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.foto:hover,
+.foto1:hover,
+.foto2:hover {
+  transform: scale(1.03);
+}
+
+
+ul h2 {
+  margin-top: 3rem;
+}
+
+img.foto,
+img.foto1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+div {
+  text-align: center;
+  margin: 2.5rem 0 3rem;
+}
+
+div a {
+  background-color: #cc6485;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+div a:hover {
+  background-color: #b25473;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  .foto,
+  .foto1,
+  .foto2 {
+    width: 95%;
+    margin: 0.6rem auto;
+    display: block;
+  }
+
+  .blanco {
+    padding: 1rem;
+  }
+
+  .rosa {
+    font-size: 1.4rem;
+  }
+
+  .verde {
+    font-size: 1.8rem;
+  }
+}

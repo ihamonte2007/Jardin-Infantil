@@ -1,0 +1,44 @@
+article{background-color:blue;
+width:250px;
+border:9px double red;
+padding:40px;
+margin:20px;
+font-family:arial,sans-serif,impact;
+color:purple;
+}
+body{background-color:#40cfff;
+}
+header{color:purple;font-size:35px;
+}
+.clase{bagckround-color:pink;
+width:255px;
+eight:15px;
+border:5px dotted pink center;
+padding:45px;
+margin:25px;
+font-family:arial,sans-serif,impact;
+color:white;
+text-align:justify;
+}
+section:first-letter{font-size:200%;
+font-family:algerian;
+color:black;
+border:1px;
+padding:2px;
+background-color:pink;
+}
+p{background-color:#b0efef;
+font-size:20px;
+width:255px;
+eight:15px;
+border:5px dashed #f498c2;
+padding:45px;
+margin:25px;
+font-family:arial,sans-serif,impact;
+color:#d2918c;
+text-align:justify;
+font-weight:bold;
+}
+
+img{width:120px;
+height:180px;}

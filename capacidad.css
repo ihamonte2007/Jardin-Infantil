@@ -1,0 +1,11 @@
+header{background-color:#f498c2;}
+body{background-color:#ffe4e1;}
+.foto{width:300px;height:500px;margin-right:20px;float:left;margin-top:200px;margin-bottom:4opx;}
+.verde{font-family:algerian;font-size:55px;text-align:center;text-shadow:2px 2px 5px purple;}
+.rosa{font-family:algerian;font-size:35px;text-align:justify;color:red;}
+.saltos{border: double 6px purple; width:400px; height:120px; list-style:none;
+outline-style: dashed; background-color:#5f9ea0;
+outline-color:purple;
+outline-width:4px; padding: 15px; margin-left:350px;}
+a{font-family:cursive; color:yellow;}
+.img{width:200px;height:300px;margin-right:20px;float:left;}
